@@ -1,13 +1,11 @@
 from PIL import Image
 import os
 
-# Define la carpeta donde están tus imágenes originales
-input_folder = ''
 
-# Define la carpeta donde quieres guardar las imágenes redimensionadas
+input_folder = ''
 output_folder = ''
 
-# Si la carpeta de salida no existe, la crea
+
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
