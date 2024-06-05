@@ -4,8 +4,8 @@ import numpy as np
 import os
 
 # Directorio de entrada y salida
-input_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/train_val_otsu/no_melanoma'
-output_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/train_val_otsu/no_melanoma_otsu_A'
+input_folder = ''
+output_folder = ''
 os.makedirs(output_folder, exist_ok=True)
 
 # Función para realizar rotación, zooming, shifting & cropping
