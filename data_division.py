@@ -38,10 +38,10 @@ def split_data(source_dir, train_dir, val_dir, test_dir, train_size=0.7, val_siz
 
     print(f'Train: {len(train_files)}, Val: {len(val_files)}, Test: {len(test_files)}')
 
-# Configura tus propios caminos
-source_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/segmentadas_otsu'
-train_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/train_otsu'
-val_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/val_otsu'
-test_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/test_otsu'
+
+source_folder = ''
+train_folder = ''
+val_folder = ''
+test_folder = ''
 
 split_data(source_folder, train_folder, val_folder, test_folder)
