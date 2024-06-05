@@ -2,10 +2,10 @@ from PIL import Image
 import os
 
 # Define la carpeta donde están tus imágenes originales
-input_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/mascaras_png'
+input_folder = ''
 
 # Define la carpeta donde quieres guardar las imágenes redimensionadas
-output_folder = '/Users/enriquegonzalezardura/Documents/DATASETS_copia_prueba/PH2Dataset/mascaras_png'
+output_folder = ''
 
 # Si la carpeta de salida no existe, la crea
 if not os.path.exists(output_folder):
