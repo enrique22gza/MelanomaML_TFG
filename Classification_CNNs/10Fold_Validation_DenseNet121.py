@@ -11,8 +11,8 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCh
 from tensorflow.keras.optimizers import Adam
 
 # Configuración de directorios
-melanoma_dir = ''       # Reemplaza con la ruta a tu carpeta de imágenes de melanoma
-no_melanoma_dir = '' # Reemplaza con la ruta a tu carpeta de imágenes de no melanoma
+melanoma_dir = ''       
+no_melanoma_dir = ''
 
 # Parámetros
 img_height, img_width = 224, 224
