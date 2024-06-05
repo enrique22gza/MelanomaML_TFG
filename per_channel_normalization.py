@@ -39,7 +39,7 @@ def save_normalized_images(normalized_dataset, output_folder):
        image_rescaled = 255 * ((image - image.min()) / (image.max() - image.min()))
        output_path = os.path.join(output_folder, f"normalized_image_{i}.jpg")
        cv2.imwrite(output_path, image_rescaled.astype(np.uint8))
-# Define los paths de entrada y salida
+
 input_folder = ''
 output_folder = ''
 # Carga el dataset de imágenes
